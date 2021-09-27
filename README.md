@@ -2,7 +2,7 @@
 
 ## Pré Requisitos
 
--   A aplicação deverá apresentar 4 componentes
+-   A aplicação deverá apresentar no mínimo 4 componentes
 -   Resolver utilizando métodos de array (map, filter, reduce, etc)
 -   Utilizar **Conditional Render** para mostrar entradas e saidas das frutas em estoque
 
