@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Quitanda de frutas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Pré Requisitos
 
-## Available Scripts
+-   A aplicação deverá apresentar 4 componentes
+-   Resolver utilizando métodos de array (map, filter, reduce, etc)
+-   Utilizar **Conditional Render** para mostrar entradas e saidas das frutas em estoque
 
-In the project directory, you can run:
+## Sobre a aplicação
 
-### `yarn start`
+-   O usuário pode:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    -   Cadastrar uma entrada de novas frutas
+    -   Cadastrar uma saida de frutas no estoque
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-   A aplicaçao deve conter:
 
-### `yarn test`
+    -   Um display para mostrar somente as entradas ou saidas
+    -   Um formulario para cadastrar entradas ou saidas de frutas
+    -   Um display para mostrar todas as movimentações feitas
+    -   A quantidade total de frutas vendidas
+    -   A quantidade total de entrada de frutas
+    -   O valor total de saídas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Observação
 
-### `yarn build`
+-   No input de quantidades:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    -   **Valores negativos** são referentes as **saídas**;
+    -   **Valores positivos** são referentes as **entradas**.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Utilize como base este array de frutas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+[
+    { name: "banana", quantity: 100, price: 5 },
+    { name: "morango", quantity: 10, price: 2 },
+    { name: "laranja", quantity: 50, price: 6 },
+]
+```
 
-### `yarn eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Veja no gif de exemplo o display para mostrar entradas e saídas
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="./src/assets/conditional-render.gif" alt="conditional-render-exemplo" width="400px">
